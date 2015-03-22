@@ -1,0 +1,297 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white3"
+    android:orientation="vertical" >
+
+    <!-- 第一行 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white3"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="15dp" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/white3"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <ImageButton
+                android:id="@+id/iv_logo1"
+                style="@style/ImageButtonStyle"
+                android:contentDescription="@string/action_settings"
+                android:src="@drawable/logo_button1_icon" />
+
+            <TextView
+                style="@style/TextViewStyle_aboutus"
+                android:text="@string/af_logo_1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/white3"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <ImageButton
+                android:id="@+id/iv_logo2"
+                style="@style/ImageButtonStyle"
+                android:contentDescription="@string/action_settings"
+                android:src="@drawable/logo_button2_icon" />
+
+            <TextView
+                style="@style/TextViewStyle_aboutus"
+                android:text="@string/af_logo_2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/white3"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <ImageButton
+                android:id="@+id/iv_logo3"
+                style="@style/ImageButtonStyle"
+                android:contentDescription="@string/action_settings"
+                android:src="@drawable/logo_button3_icon" />
+
+            <TextView
+                style="@style/TextViewStyle_aboutus"
+                android:text="@string/af_logo_3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/white3"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <ImageButton
+                android:id="@+id/iv_logo4"
+                style="@style/ImageButtonStyle"
+                android:contentDescription="@string/action_settings"
+                android:src="@drawable/logo_button4_icon" />
+
+            <TextView
+                style="@style/TextViewStyle_aboutus"
+                android:text="@string/af_logo_4" />
+        </LinearLayout>
+    </LinearLayout>
+    <!-- 第二行 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white3"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/white3"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <ImageButton
+                android:id="@+id/iv_logo5"
+                style="@style/ImageButtonStyle"
+                android:contentDescription="@string/action_settings"
+                android:src="@drawable/logo_button5_icon" />
+
+            <TextView
+                style="@style/TextViewStyle_aboutus"
+                android:text="@string/af_logo_5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/white3"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <ImageButton
+                android:id="@+id/iv_logo6"
+                style="@style/ImageButtonStyle"
+                android:contentDescription="@string/action_settings"
+                android:src="@drawable/logo_button6_icon" />
+
+            <TextView
+                style="@style/TextViewStyle_aboutus"
+                android:text="@string/af_logo_6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/white3"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <ImageButton
+                android:id="@+id/iv_logo7"
+                style="@style/ImageButtonStyle"
+                android:contentDescription="@string/action_settings"
+                android:src="@drawable/logo_button7_icon" />
+
+            <TextView
+                style="@style/TextViewStyle_aboutus"
+                android:text="@string/af_logo_7" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/white3"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <ImageButton
+                android:id="@+id/iv_logo8"
+                style="@style/ImageButtonStyle"
+                android:contentDescription="@string/action_settings"
+                android:src="@drawable/logo_button8_icon" />
+
+            <TextView
+                style="@style/TextViewStyle_aboutus"
+                android:text="@string/af_logo_8" />
+        </LinearLayout>
+    </LinearLayout>
+    <!-- 第三行 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white3"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:paddingBottom="15dp"
+        android:paddingTop="5dp" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/white3"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <ImageButton
+                android:id="@+id/iv_logo9"
+                style="@style/ImageButtonStyle"
+                android:contentDescription="@string/action_settings"
+                android:src="@drawable/logo_button9_icon" />
+
+            <TextView
+                style="@style/TextViewStyle_aboutus"
+                android:text="@string/af_logo_9" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/white3"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <ImageButton
+                android:id="@+id/iv_logo10"
+                style="@style/ImageButtonStyle"
+                android:contentDescription="@string/action_settings"
+                android:src="@drawable/logo_button10_icon" />
+
+            <TextView
+                style="@style/TextViewStyle_aboutus"
+                android:text="@string/af_logo_10" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/white3"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <ImageButton
+                android:id="@+id/iv_logo12"
+                style="@style/ImageButtonStyle"
+                android:contentDescription="@string/action_settings"
+                android:src="@drawable/logo_button12_icon" />
+
+            <TextView
+                style="@style/TextViewStyle_aboutus"
+                android:text="@string/af_logo_12" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/white3"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <ImageButton
+                android:id="@+id/iv_logo11"
+                style="@style/ImageButtonStyle"
+                android:contentDescription="@string/action_settings"
+                android:src="@drawable/logo_button11_icon"
+                android:visibility="gone" />
+
+            <TextView
+                style="@style/TextViewStyle"
+                android:text="@string/af_logo_11"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

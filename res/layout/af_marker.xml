@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:background="@color/black2"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/img_border"
+        android:contentDescription="@string/action_settings"
+        android:scaleType="fitXY"
+        android:src="@drawable/a01" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_map_bottom" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_hotelname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/af_map_markername"
+                android:textColor="@color/black4"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_hoteladdress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/af_map_markercontent"
+                android:textColor="@color/black4"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:drawableLeft="@drawable/map_zan"
+                android:gravity="center_vertical"
+                android:text="@string/af_map_markernum"
+                android:textColor="@color/black4"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

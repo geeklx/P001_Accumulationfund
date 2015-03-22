@@ -1,0 +1,468 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white4"
+    android:orientation="vertical" >
+
+    <include layout="@layout/af_main_title" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="@color/white4"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:orientation="horizontal"
+                        android:padding="10dp" >
+
+                        <TextView
+                            android:id="@+id/tv_logo9d_1"
+                            style="@style/TextViewStyle_aboutus"
+                            android:layout_width="110dp"
+                            android:layout_gravity="center_vertical"
+                            android:text="@string/tv_logo9d_1"
+                            android:textSize="14sp" />
+
+                        <EditText
+                            android:id="@+id/ed_logo9d2_1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:background="@drawable/pwd_background"
+                            android:hint="@string/ed_logo9d_1"
+                            android:padding="5dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/black4"
+                    android:contentDescription="@string/action_settings" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:orientation="horizontal"
+                        android:padding="10dp" >
+
+                        <TextView
+                            android:id="@+id/tv_logo9d_2"
+                            style="@style/TextViewStyle_aboutus"
+                            android:layout_width="110dp"
+                            android:layout_gravity="center_vertical"
+                            android:text="@string/tv_logo9d_2"
+                            android:textSize="14sp" />
+
+                        <EditText
+                            android:id="@+id/ed_logo9d2_2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:background="@drawable/pwd_background"
+                            android:hint="@string/ed_logo9d_2"
+                            android:padding="5dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/black4"
+                    android:contentDescription="@string/action_settings" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:orientation="horizontal"
+                        android:padding="10dp" >
+
+                        <TextView
+                            android:id="@+id/tv_logo9d_3"
+                            style="@style/TextViewStyle_aboutus"
+                            android:layout_width="110dp"
+                            android:layout_gravity="center_vertical"
+                            android:text="@string/tv_logo9d_3"
+                            android:textSize="14sp" />
+
+                        <EditText
+                            android:id="@+id/ed_logo9d2_3"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:background="@drawable/pwd_background"
+                            android:hint="@string/ed_logo9d_3"
+                            android:padding="5dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/black4"
+                    android:contentDescription="@string/action_settings" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:orientation="horizontal"
+                        android:padding="10dp" >
+
+                        <TextView
+                            android:id="@+id/tv_logo9d_4"
+                            style="@style/TextViewStyle_aboutus"
+                            android:layout_width="110dp"
+                            android:layout_gravity="center_vertical"
+                            android:text="@string/tv_logo9d_4"
+                            android:textSize="12sp" />
+
+                        <EditText
+                            android:id="@+id/ed_logo9d2_4"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:background="@drawable/pwd_background"
+                            android:hint="@string/ed_logo9d_4"
+                            android:padding="5dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/black4"
+                    android:contentDescription="@string/action_settings" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:orientation="horizontal"
+                        android:padding="10dp" >
+
+                        <TextView
+                            android:id="@+id/tv_logo9d_5"
+                            style="@style/TextViewStyle_aboutus"
+                            android:layout_width="110dp"
+                            android:layout_gravity="center_vertical"
+                            android:text="@string/tv_logo9d_5"
+                            android:textSize="14sp" />
+
+                        <EditText
+                            android:id="@+id/ed_logo9d2_5"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:background="@drawable/pwd_background"
+                            android:hint="@string/ed_logo9d_5"
+                            android:padding="5dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/black4"
+                    android:contentDescription="@string/action_settings" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:orientation="horizontal"
+                        android:padding="10dp" >
+
+                        <TextView
+                            android:id="@+id/tv_logo9d_6"
+                            style="@style/TextViewStyle_aboutus"
+                            android:layout_width="110dp"
+                            android:layout_gravity="center_vertical"
+                            android:text="@string/tv_logo9d_6"
+                            android:textSize="14sp" />
+
+                        <EditText
+                            android:id="@+id/ed_logo9d2_6"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:background="@drawable/pwd_background"
+                            android:hint="@string/ed_logo9d_6"
+                            android:padding="5dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/black4"
+                    android:contentDescription="@string/action_settings" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:orientation="horizontal"
+                        android:padding="10dp" >
+
+                        <TextView
+                            android:id="@+id/tv_logo9d_7"
+                            style="@style/TextViewStyle_aboutus"
+                            android:layout_width="110dp"
+                            android:layout_gravity="center_vertical"
+                            android:text="@string/tv_logo9d_7"
+                            android:textSize="14sp" />
+
+                        <EditText
+                            android:id="@+id/ed_logo9d2_7"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:background="@drawable/pwd_background"
+                            android:hint="@string/ed_logo9d_7"
+                            android:padding="5dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/black4"
+                    android:contentDescription="@string/action_settings" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:orientation="horizontal"
+                        android:padding="10dp" >
+
+                        <TextView
+                            android:id="@+id/tv_logo9d_8"
+                            style="@style/TextViewStyle_aboutus"
+                            android:layout_width="110dp"
+                            android:layout_gravity="center_vertical"
+                            android:text="@string/tv_logo9d_8"
+                            android:textSize="14sp" />
+
+                        <EditText
+                            android:id="@+id/ed_logo9d2_8"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:background="@drawable/pwd_background"
+                            android:hint="@string/ed_logo9d_8"
+                            android:padding="5dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/white4"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/background"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@color/white"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:orientation="horizontal"
+                            android:padding="10dp" >
+
+                            <TextView
+                                android:id="@+id/tv_logo9d_10"
+                                style="@style/TextViewStyle_aboutus"
+                                android:layout_width="110dp"
+                                android:layout_gravity="center_vertical"
+                                android:text="@string/tv_logo9d_10"
+                                android:textSize="14sp" />
+
+                            <EditText
+                                android:id="@+id/ed_logo9d2_10"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1"
+                                android:background="@drawable/pwd_background"
+                                android:hint="@string/ed_logo9d_10"
+                                android:padding="5dp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="0.5dp"
+                            android:background="@color/black4"
+                            android:contentDescription="@string/action_settings" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:orientation="horizontal"
+                            android:padding="10dp" >
+
+                            <TextView
+                                android:id="@+id/tv_logo9d_11"
+                                style="@style/TextViewStyle_aboutus"
+                                android:layout_width="110dp"
+                                android:layout_gravity="center_vertical"
+                                android:text="@string/tv_logo9d_11"
+                                android:textSize="14sp" />
+
+                            <EditText
+                                android:id="@+id/ed_logo9d2_11"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1"
+                                android:background="@drawable/pwd_background"
+                                android:hint="@string/ed_logo9d_11"
+                                android:padding="5dp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="0.5dp"
+                            android:background="@color/black4"
+                            android:contentDescription="@string/action_settings" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:orientation="vertical"
+                            android:padding="10dp" >
+
+                            <TextView
+                                style="@style/TextViewStyle_aboutus"
+                                android:layout_gravity="center_vertical"
+                                android:text="@string/tv_logo9d_12" />
+
+                            <Button
+                                android:id="@+id/btn_msg_d2"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/btn_able"
+                                android:padding="10dp"
+                                android:text="@string/btn_logo9d_12"
+                                android:textColor="@color/white"
+                                android:textSize="16sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

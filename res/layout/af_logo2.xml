@@ -1,0 +1,308 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white4"
+    android:orientation="vertical" >
+
+    <include layout="@layout/af_main_title" />
+
+    <com.liangxiao.swiperefresh.PullToRefreshScrollView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/pull_refresh_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        ptr:ptrAnimationStyle="flip"
+        ptr:ptrMode="pullFromStart" >
+
+        <!--
+             <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white4"
+            android:orientation="vertical"
+            android:padding="5dp" >
+        -->
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/white4"
+            android:fillViewport="true"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@color/white4"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@color/white4"
+                    android:orientation="vertical"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/tv_time"
+                        style="@style/TextViewStyle"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/af_logo_2_endDate" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/af_gray_background" >
+
+                        <TextView
+                            android:id="@+id/tv_name"
+                            style="@style/TextViewStyle_aboutus"
+                            android:layout_centerInParent="true"
+                            android:layout_centerVertical="true"
+                            android:text="@string/af_logo_2_person"
+                            android:textColor="@color/white" />
+
+                        <ImageButton
+                            android:id="@+id/iv_refresh"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:background="@color/transparent"
+                            android:contentDescription="@string/action_settings"
+                            android:padding="5dp"
+                            android:src="@drawable/flush"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:orientation="horizontal"
+                            android:padding="10dp" >
+
+                            <TextView
+                                style="@style/TextViewStyle_aboutus"
+                                android:layout_gravity="center_vertical"
+                                android:text="@string/af_logo_2_state" />
+
+                            <EditText
+                                android:id="@+id/af_logo_2_11"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="30dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/pwd_background"
+                                android:hint="@string/af_logo_2_person1"
+                                android:padding="5dp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="0.5dp"
+                            android:background="@color/black4"
+                            android:contentDescription="@string/action_settings" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:orientation="horizontal"
+                            android:padding="10dp" >
+
+                            <TextView
+                                style="@style/TextViewStyle_aboutus"
+                                android:layout_gravity="center_vertical"
+                                android:text="@string/af_logo_2_remain" />
+
+                            <EditText
+                                android:id="@+id/af_logo_2_22"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="30dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/pwd_background"
+                                android:hint="@string/af_logo_2_person2"
+                                android:padding="5dp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="0.5dp"
+                            android:background="@color/black4"
+                            android:contentDescription="@string/action_settings" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:orientation="horizontal"
+                            android:padding="10dp" >
+
+                            <TextView
+                                style="@style/TextViewStyle_aboutus"
+                                android:layout_gravity="center_vertical"
+                                android:text="@string/af_logo_2_monthpay" />
+
+                            <EditText
+                                android:id="@+id/af_logo_2_33"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="30dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/pwd_background"
+                                android:hint="@string/af_logo_2_person3"
+                                android:padding="5dp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="0.5dp"
+                            android:background="@color/black4"
+                            android:contentDescription="@string/action_settings" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:orientation="horizontal"
+                            android:padding="10dp" >
+
+                            <TextView
+                                style="@style/TextViewStyle_aboutus"
+                                android:layout_gravity="center_vertical"
+                                android:text="@string/af_logo_2_lastmonthpay" />
+
+                            <EditText
+                                android:id="@+id/af_logo_2_44"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="15dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/pwd_background"
+                                android:hint="@string/af_logo_2_person4"
+                                android:padding="5dp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="0.5dp"
+                            android:background="@color/black4"
+                            android:contentDescription="@string/action_settings" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:orientation="horizontal"
+                            android:padding="10dp" >
+
+                            <TextView
+                                style="@style/TextViewStyle_aboutus"
+                                android:layout_gravity="center_vertical"
+                                android:text="@string/af_logo_2_account" />
+
+                            <EditText
+                                android:id="@+id/af_logo_2_55"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="15dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/pwd_background"
+                                android:hint="@string/af_logo_2_person5"
+                                android:padding="5dp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="0.5dp"
+                            android:background="@color/black4"
+                            android:contentDescription="@string/action_settings" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:orientation="horizontal"
+                            android:padding="10dp" >
+
+                            <TextView
+                                style="@style/TextViewStyle_aboutus"
+                                android:layout_gravity="center_vertical"
+                                android:text="@string/af_logo_2_startDate" />
+
+                            <EditText
+                                android:id="@+id/af_logo_2_66"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="30dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/pwd_background"
+                                android:hint="@string/af_logo_2_person6"
+                                android:padding="5dp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="0.5dp"
+                            android:background="@color/black4"
+                            android:contentDescription="@string/action_settings" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:orientation="vertical"
+                            android:padding="10dp" >
+
+                            <TextView
+                                style="@style/TextViewStyle_aboutus"
+                                android:layout_gravity="center_vertical"
+                                android:text="@string/af_logo_2_department" />
+
+                            <Button
+                                android:id="@+id/btn_msg_logo2"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/af_lightblue_background"
+                                android:padding="10dp"
+                                android:textColor="@color/blue2"
+                                android:textSize="16sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <!-- </LinearLayout> -->
+    </com.liangxiao.swiperefresh.PullToRefreshScrollView>
+
+</LinearLayout>

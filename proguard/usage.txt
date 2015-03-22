@@ -1,0 +1,783 @@
+com.accumulationfund.guide.MyViewPager:
+    private static final float SCALE_MAX
+    private static final java.lang.String TAG
+com.accumulationfund.guide.WelcomeActivity:
+    java.util.Timer timer
+com.accumulationfund.main.animation.CircleImageView
+com.accumulationfund.main.animation.Constant:
+    6:6:public Constant()
+com.accumulationfund.main.animation.ViewUtils:
+    15:15:public ViewUtils()
+    31:31:public static int getScreenHeight()
+    42:45:public static int getPixels(int,android.content.Context)
+    55:63:public static android.graphics.Bitmap loadBitmapFromView(android.view.View)
+    75:85:public static int computeSampleSize(android.graphics.BitmapFactory$Options,int,int)
+    97:110:private static int computeInitialSampleSize(android.graphics.BitmapFactory$Options,int,int)
+    115:117:public static int getStatusBarHeight(android.app.Activity)
+com.accumulationfund.main.lunbo.CircleFlowIndicator:
+    private static final int STYLE_STROKE
+    private static final int STYLE_FILL
+com.accumulationfund.main.lunbo.ViewFlow:
+    private static final int SNAP_VELOCITY
+    private static final int INVALID_SCREEN
+    private static final int TOUCH_STATE_REST
+    private static final int TOUCH_STATE_SCROLLING
+    120:123:public void stopAutoFlowTimer()
+com.accumulationfund.main.update.UpdateManager:
+    public static final java.lang.String BaoName
+    public static final java.lang.String ApkURL
+    private static final int DOWNLOAD
+    private static final int DOWNLOAD_FINISH
+com.accumulationfund.orientationlistener.MyOrientationListener:
+    private android.hardware.SensorManager mSensorManager
+    private android.hardware.Sensor mSensor
+    23:36:public void start()
+    39:40:public void stop()
+com.accumulationfund.otheractivity.MainActivity_AboutUS:
+    private android.os.Message msg
+    244:247:private void handMessage(int)
+    257:264:private java.lang.String splitPhoneNum(java.lang.String)
+com.accumulationfund.otheractivity.MainActivity_logo1:
+    public static final int THE_PAGE
+    public static final int THE_PAGESIZE
+    public static final int TITLE_COUNT
+    public static final java.lang.String TAG1
+    287:290:private void handMessage(int)
+com.accumulationfund.otheractivity.MainActivity_logo11_result:
+    private android.os.Message msg
+    87:90:private void handMessage(int)
+com.accumulationfund.otheractivity.MainActivity_logo12$MyTask1
+com.accumulationfund.otheractivity.MainActivity_logo1Detail:
+    public static final int THE_PAGE
+    public static final java.lang.String TAG1
+    private android.os.Message msg
+    90:93:private void handMessage(int)
+com.accumulationfund.otheractivity.MainActivity_logo2:
+    279:282:private void handMessage(int)
+com.accumulationfund.otheractivity.MainActivity_logo3:
+    public static final int THE_PAGE
+    public static final java.lang.String TAG1
+    257:260:private void handMessage(int)
+com.accumulationfund.otheractivity.MainActivity_logo4:
+    private android.os.Message msg
+    197:200:private void handMessage(int)
+com.accumulationfund.otheractivity.MainActivity_logo5:
+    292:295:private void handMessage(int)
+com.accumulationfund.otheractivity.MainActivity_logo6:
+    public static final int THE_PAGE
+    public static final int THE_PAGESIZE
+    public static final int TITLE_COUNT
+    public static final java.lang.String TAG1
+    300:303:private void handMessage(int)
+com.accumulationfund.otheractivity.MainActivity_logo8:
+    public static final int THE_PAGE
+    public static final java.lang.String TAG1
+    private android.os.Message msg
+    121:124:private void handMessage(int)
+com.accumulationfund.otheractivity.MainActivity_logo8_location:
+    private android.os.Message msg
+    private java.lang.String latitude
+    private java.lang.String longitude
+    private java.lang.String Accumulationfundlat
+    private java.lang.String Accumulationfundlon
+    433:436:private void handMessage(int)
+com.accumulationfund.otheractivity.MainActivity_logo9:
+    private android.os.Message msg
+    162:165:private void handMessage(int)
+com.accumulationfund.otheractivity.MainActivity_logo9_fragment1Detail:
+    private android.os.Message msg
+    177:180:private void handMessage(int)
+com.accumulationfund.otheractivity.MainActivity_logo9_fragment1Detail_another:
+    private android.os.Message msg
+    168:171:private void handMessage(int)
+com.accumulationfund.otheractivity.MainActivity_logo9_fragment2Detail:
+    private android.os.Message msg
+    203:206:private void handMessage(int)
+com.accumulationfund.otheractivity.MainActivity_logo9_fragment2Detail2:
+    194:197:private void handMessage(int)
+com.accumulationfund.otheractivity.MainActivity_logo9_fragment2Detail2_another:
+    private android.os.Message msg
+    81:84:private void handMessage(int)
+com.accumulationfund.otheractivity.MainActivity_logo9_fragment2Detail_another:
+    private android.os.Message msg
+    200:203:private void handMessage(int)
+com.accumulationfund.otheractivity.aboutus.AboutUS_Login$MyTask1
+com.accumulationfund.otheractivity.aboutus.AboutUS_Onlinemessage$MyTask1
+com.accumulationfund.otheractivity.adapter.Adapter_Logo8
+com.accumulationfund.otheractivity.adapter.Adapter_Logo8$1
+com.accumulationfund.otheractivity.adapter.Adapter_Logo8$ViewHolder
+com.accumulationfund.otheractivity.adapter.Adapter_Logo9:
+    44:45:public void addItem(com.accumulationfund.otheractivity.bean.Bean_Logo9)
+com.accumulationfund.otheractivity.bean.Bean_Logo4:
+    private java.lang.String num
+    48:48:public static java.lang.String[] getName()
+    52:53:public static void setName(java.lang.String[])
+    208:208:public java.lang.String getNum()
+    212:213:public void setNum(java.lang.String)
+com.accumulationfund.otheractivity.bean.Bean_Logo8:
+    33:34:public void setLatitude(double)
+    41:42:public void setLongitude(double)
+    45:45:public int getImgId()
+    49:50:public void setImgId(int)
+    57:58:public void setName(java.lang.String)
+    65:66:public void setAddress(java.lang.String)
+    73:74:public void setNum(java.lang.String)
+com.accumulationfund.otheractivity.toast.VerificationActivity:
+    7:7:public VerificationActivity()
+    14:15:public static boolean checkEmail(java.lang.String)
+    38:39:public static boolean checkMobile(java.lang.String)
+    53:54:public static boolean checkPhone(java.lang.String)
+    63:64:public static boolean checkDigit(java.lang.String)
+    73:74:public static boolean checkDecimals(java.lang.String)
+    83:84:public static boolean checkBlankSpace(java.lang.String)
+    93:94:public static boolean checkChinese(java.lang.String)
+    103:104:public static boolean checkBirthday(java.lang.String)
+    113:114:public static boolean checkURL(java.lang.String)
+    123:124:public static boolean checkPostcode(java.lang.String)
+    133:134:public static boolean checkIpAddress(java.lang.String)
+com.accumulationfund.util.JsonData:
+    public static final java.lang.String SERVICE_NS
+    public static final java.lang.String SERVICE_URL
+    public static final int pageSize
+    52:56:public org.json.JSONArray NewMessage(java.lang.String)
+    67:73:public org.json.JSONArray topicByRing(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+    80:106:public org.json.JSONArray callinfo(java.lang.String,org.ksoap2.serialization.SoapObject)
+com.accumulationfund.util.Util:
+    13:13:public Util()
+com.android.volley.AuthFailureError:
+    34:36:public AuthFailureError(android.content.Intent)
+    43:44:public AuthFailureError(java.lang.String)
+    47:48:public AuthFailureError(java.lang.String,java.lang.Exception)
+    51:51:public android.content.Intent getResolutionIntent()
+com.android.volley.Cache:
+    public abstract void invalidate(java.lang.String,boolean)
+    public abstract void remove(java.lang.String)
+    public abstract void clear()
+com.android.volley.DefaultRetryPolicy:
+    public static final int DEFAULT_TIMEOUT_MS
+    public static final int DEFAULT_MAX_RETRIES
+    public static final float DEFAULT_BACKOFF_MULT
+com.android.volley.ExecutorDelivery:
+    49:51:public ExecutorDelivery(java.util.concurrent.Executor)
+com.android.volley.NetworkResponse:
+    44:45:public NetworkResponse(byte[])
+com.android.volley.ParseError
+com.android.volley.Request:
+    private static final java.lang.String DEFAULT_PARAMS_ENCODING
+    private static final long SLOW_REQUEST_THRESHOLD_MS
+    private java.lang.Object mTag
+    114:115:public Request(java.lang.String,com.android.volley.Response$ErrorListener)
+    144:145:public void setTag(java.lang.Object)
+    152:152:public java.lang.Object getTag()
+    234:237:public final int getSequence()
+    273:274:public void cancel()
+    419:420:public final void setShouldCache(boolean)
+com.android.volley.Request$Method
+com.android.volley.RequestQueue:
+    private static final int DEFAULT_NETWORK_THREAD_POOL_SIZE
+    171:171:public com.android.volley.Cache getCache()
+    187:194:public void cancelAll(com.android.volley.RequestQueue$RequestFilter)
+    201:210:public void cancelAll(java.lang.Object)
+com.android.volley.RequestQueue$1
+com.android.volley.RequestQueue$RequestFilter
+com.android.volley.VolleyError:
+    35:37:public VolleyError(java.lang.String)
+    40:42:public VolleyError(java.lang.String,java.lang.Throwable)
+com.android.volley.VolleyLog:
+    41:46:public static void setTag(java.lang.String)
+    67:68:public static varargs void wtf(java.lang.String,java.lang.Object[])
+    71:72:public static varargs void wtf(java.lang.Throwable,java.lang.String,java.lang.Object[])
+com.android.volley.VolleyLog$MarkerLog:
+    private static final long MIN_DURATION_FOR_LOGGING_MS
+com.android.volley.toolbox.AndroidAuthenticator
+com.android.volley.toolbox.Authenticator
+com.android.volley.toolbox.BasicNetwork:
+    204:206:protected void logError(java.lang.String,java.lang.String,long)
+com.android.volley.toolbox.ClearCacheRequest
+com.android.volley.toolbox.DiskBasedCache:
+    private static final int DEFAULT_DISK_USAGE_BYTES
+    private static final float HYSTERESIS_FACTOR
+    private static final int CACHE_MAGIC
+    90:99:public synchronized void clear()
+    179:188:public synchronized void invalidate(java.lang.String,boolean)
+com.android.volley.toolbox.HttpClientStack:
+    private static final java.lang.String HEADER_CONTENT_TYPE
+    63:67:private static java.util.List getPostParameterPairs(java.util.Map)
+com.android.volley.toolbox.HttpHeaderParser:
+    31:31:public HttpHeaderParser()
+com.android.volley.toolbox.HurlStack:
+    private static final java.lang.String HEADER_CONTENT_TYPE
+com.android.volley.toolbox.ImageLoader
+com.android.volley.toolbox.ImageLoader$1
+com.android.volley.toolbox.ImageLoader$2
+com.android.volley.toolbox.ImageLoader$3
+com.android.volley.toolbox.ImageLoader$4
+com.android.volley.toolbox.ImageLoader$BatchedImageRequest
+com.android.volley.toolbox.ImageLoader$ImageCache
+com.android.volley.toolbox.ImageLoader$ImageContainer
+com.android.volley.toolbox.ImageLoader$ImageListener
+com.android.volley.toolbox.ImageRequest
+com.android.volley.toolbox.JsonArrayRequest
+com.android.volley.toolbox.JsonObjectRequest
+com.android.volley.toolbox.JsonRequest
+com.android.volley.toolbox.NetworkImageView
+com.android.volley.toolbox.NetworkImageView$1
+com.android.volley.toolbox.NetworkImageView$1$1
+com.android.volley.toolbox.NoCache
+com.android.volley.toolbox.PoolingByteArrayOutputStream:
+    private static final int DEFAULT_SIZE
+    40:41:public PoolingByteArrayOutputStream(com.android.volley.toolbox.ByteArrayPool)
+com.android.volley.toolbox.RequestFuture
+com.android.volley.toolbox.Volley:
+    private static final java.lang.String DEFAULT_CACHE_DIR
+    30:30:public Volley()
+    77:102:public static com.android.volley.RequestQueue newRequestQueueInDisk(android.content.Context,java.lang.String,com.android.volley.toolbox.HttpStack)
+com.androidquery.AQuery:
+    31:32:public AQuery(android.app.Activity)
+    35:36:public AQuery(android.view.View)
+    43:44:public AQuery(android.app.Activity,android.view.View)
+com.androidquery.AbstractAQuery:
+    private android.view.View root
+    private android.app.Activity act
+    private java.lang.reflect.Constructor constructor
+    108:118:protected com.androidquery.AbstractAQuery create(android.view.View)
+    127:137:private java.lang.reflect.Constructor getConstructor()
+    147:149:public AbstractAQuery(android.app.Activity)
+    156:159:public AbstractAQuery(android.view.View)
+    167:171:public AbstractAQuery(android.app.Activity,android.view.View)
+    185:191:private android.view.View findView(int)
+    197:207:private android.view.View findView(java.lang.String)
+    213:219:private varargs android.view.View findView(int[])
+    232:233:public com.androidquery.AbstractAQuery find(int)
+    246:259:public com.androidquery.AbstractAQuery parent(int)
+    272:276:public com.androidquery.AbstractAQuery recycle(android.view.View)
+    291:291:public android.view.View getView()
+    302:302:public com.androidquery.AbstractAQuery id(int)
+    326:326:public com.androidquery.AbstractAQuery id(java.lang.String)
+    337:337:public varargs com.androidquery.AbstractAQuery id(int[])
+    352:353:public com.androidquery.AbstractAQuery progress(int)
+    371:372:public com.androidquery.AbstractAQuery progress(java.lang.Object)
+    391:392:public com.androidquery.AbstractAQuery progress(android.app.Dialog)
+    403:404:public com.androidquery.AbstractAQuery auth(com.androidquery.auth.AccountHandle)
+    414:415:public com.androidquery.AbstractAQuery transformer(com.androidquery.callback.Transformer)
+    419:420:public com.androidquery.AbstractAQuery policy(int)
+    430:431:public com.androidquery.AbstractAQuery proxy(java.lang.String,int)
+    442:446:public com.androidquery.AbstractAQuery rating(float)
+    458:462:public com.androidquery.AbstractAQuery text(int)
+    474:479:public varargs com.androidquery.AbstractAQuery text(int,java.lang.Object[])
+    490:495:public com.androidquery.AbstractAQuery text(java.lang.CharSequence)
+    508:511:public com.androidquery.AbstractAQuery text(java.lang.CharSequence,boolean)
+    526:530:public com.androidquery.AbstractAQuery text(android.text.Spanned)
+    541:545:public com.androidquery.AbstractAQuery textColor(int)
+    557:561:public com.androidquery.AbstractAQuery typeface(android.graphics.Typeface)
+    572:576:public com.androidquery.AbstractAQuery textSize(float)
+    590:595:public com.androidquery.AbstractAQuery adapter(android.widget.Adapter)
+    606:611:public com.androidquery.AbstractAQuery adapter(android.widget.ExpandableListAdapter)
+    648:654:public com.androidquery.AbstractAQuery image(android.graphics.drawable.Drawable)
+    667:673:public com.androidquery.AbstractAQuery image(android.graphics.Bitmap)
+    687:687:public com.androidquery.AbstractAQuery image(java.lang.String)
+    701:701:public com.androidquery.AbstractAQuery image(java.lang.String,boolean,boolean)
+    719:719:public com.androidquery.AbstractAQuery image(java.lang.String,boolean,boolean,int,int)
+    741:741:public com.androidquery.AbstractAQuery image(java.lang.String,boolean,boolean,int,int,android.graphics.Bitmap,int)
+    761:761:public com.androidquery.AbstractAQuery image(java.lang.String,boolean,boolean,int,int,android.graphics.Bitmap,int,float)
+    766:771:protected com.androidquery.AbstractAQuery image(java.lang.String,boolean,boolean,int,int,android.graphics.Bitmap,int,float,int,java.lang.String)
+    775:775:public com.androidquery.AbstractAQuery image(java.lang.String,com.androidquery.callback.ImageOptions)
+    780:785:protected com.androidquery.AbstractAQuery image(java.lang.String,com.androidquery.callback.ImageOptions,java.lang.String)
+    800:805:public com.androidquery.AbstractAQuery image(com.androidquery.callback.BitmapAjaxCallback)
+    825:828:public com.androidquery.AbstractAQuery image(java.lang.String,boolean,boolean,int,int,com.androidquery.callback.BitmapAjaxCallback)
+    842:842:public com.androidquery.AbstractAQuery image(java.io.File,int)
+    861:866:public com.androidquery.AbstractAQuery image(java.io.File,boolean,int,com.androidquery.callback.BitmapAjaxCallback)
+    880:882:public com.androidquery.AbstractAQuery image(android.graphics.Bitmap,float)
+    893:897:public com.androidquery.AbstractAQuery tag(java.lang.Object)
+    909:913:public com.androidquery.AbstractAQuery tag(int,java.lang.Object)
+    924:928:public com.androidquery.AbstractAQuery transparent(boolean)
+    939:943:public com.androidquery.AbstractAQuery enabled(boolean)
+    954:959:public com.androidquery.AbstractAQuery checked(boolean)
+    969:976:public boolean isChecked()
+    987:991:public com.androidquery.AbstractAQuery clickable(boolean)
+    1008:1008:public com.androidquery.AbstractAQuery gone()
+    1025:1025:public com.androidquery.AbstractAQuery invisible()
+    1042:1042:public com.androidquery.AbstractAQuery visible()
+    1052:1056:public com.androidquery.AbstractAQuery visibility(int)
+    1068:1078:public com.androidquery.AbstractAQuery background(int)
+    1089:1093:public com.androidquery.AbstractAQuery backgroundColor(int)
+    1103:1116:public com.androidquery.AbstractAQuery dataChanged()
+    1128:1128:public boolean isExist()
+    1137:1141:public java.lang.Object getTag()
+    1151:1155:public java.lang.Object getTag(int)
+    1164:1164:public android.widget.ImageView getImageView()
+    1173:1173:public android.widget.Gallery getGallery()
+    1184:1184:public android.widget.TextView getTextView()
+    1193:1193:public android.widget.EditText getEditText()
+    1202:1202:public android.widget.ProgressBar getProgressBar()
+    1212:1212:public android.widget.SeekBar getSeekBar()
+    1221:1221:public android.widget.Button getButton()
+    1230:1230:public android.widget.CheckBox getCheckBox()
+    1239:1239:public android.widget.ListView getListView()
+    1248:1248:public android.widget.ExpandableListView getExpandableListView()
+    1257:1257:public android.widget.GridView getGridView()
+    1266:1266:public android.widget.RatingBar getRatingBar()
+    1275:1275:public android.webkit.WebView getWebView()
+    1284:1284:public android.widget.Spinner getSpinner()
+    1294:1300:public android.text.Editable getEditable()
+    1310:1316:public java.lang.CharSequence getText()
+    1326:1332:public java.lang.Object getSelectedItem()
+    1346:1352:public int getSelectedItemPosition()
+    1368:1369:public com.androidquery.AbstractAQuery clicked(java.lang.Object,java.lang.String)
+    1382:1386:public com.androidquery.AbstractAQuery clicked(android.view.View$OnClickListener)
+    1398:1399:public com.androidquery.AbstractAQuery longClicked(java.lang.Object,java.lang.String)
+    1412:1416:public com.androidquery.AbstractAQuery longClicked(android.view.View$OnLongClickListener)
+    1431:1432:public com.androidquery.AbstractAQuery itemClicked(java.lang.Object,java.lang.String)
+    1444:1451:public com.androidquery.AbstractAQuery itemClicked(android.widget.AdapterView$OnItemClickListener)
+    1464:1465:public com.androidquery.AbstractAQuery itemSelected(java.lang.Object,java.lang.String)
+    1479:1484:public com.androidquery.AbstractAQuery itemSelected(android.widget.AdapterView$OnItemSelectedListener)
+    1497:1502:public com.androidquery.AbstractAQuery setSelection(int)
+    1517:1521:public com.androidquery.AbstractAQuery scrolledBottom(java.lang.Object,java.lang.String)
+    1526:1536:private com.androidquery.util.Common setScrollListener()
+    1547:1551:public com.androidquery.AbstractAQuery scrolled(android.widget.AbsListView$OnScrollListener)
+    1565:1573:public com.androidquery.AbstractAQuery textChanged(java.lang.Object,java.lang.String)
+    1588:1592:public com.androidquery.AbstractAQuery overridePendingTransition5(int,int)
+    1605:1609:public com.androidquery.AbstractAQuery setOverScrollMode9(int)
+    1625:1630:public com.androidquery.AbstractAQuery setLayerType11(int,android.graphics.Paint)
+    1645:1648:public varargs java.lang.Object invoke(java.lang.String,java.lang.Class[],java.lang.Object[])
+    1659:1663:public com.androidquery.AbstractAQuery hardwareAccelerated11()
+    1676:1695:public com.androidquery.AbstractAQuery clear()
+    1711:1730:public com.androidquery.AbstractAQuery margin(float,float,float,float)
+    1742:1743:public com.androidquery.AbstractAQuery width(int)
+    1755:1756:public com.androidquery.AbstractAQuery height(int)
+    1769:1770:public com.androidquery.AbstractAQuery width(int,boolean)
+    1783:1784:public com.androidquery.AbstractAQuery height(int,boolean)
+    1789:1809:private void size(boolean,int,boolean)
+    1820:1826:public android.content.Context getContext()
+    1839:1839:public com.androidquery.AbstractAQuery ajax(com.androidquery.callback.AjaxCallback)
+    1846:1874:protected com.androidquery.AbstractAQuery invoke(com.androidquery.callback.AbstractAjaxCallback)
+    1901:1902:public com.androidquery.AbstractAQuery ajax(java.lang.String,java.lang.Class,com.androidquery.callback.AjaxCallback)
+    1924:1926:public com.androidquery.AbstractAQuery ajax(java.lang.String,java.lang.Class,long,com.androidquery.callback.AjaxCallback)
+    1949:1952:public com.androidquery.AbstractAQuery ajax(java.lang.String,java.lang.Class,java.lang.Object,java.lang.String)
+    1977:1980:public com.androidquery.AbstractAQuery ajax(java.lang.String,java.lang.Class,long,java.lang.Object,java.lang.String)
+    1999:2000:public com.androidquery.AbstractAQuery ajax(java.lang.String,java.util.Map,java.lang.Class,com.androidquery.callback.AjaxCallback)
+    2021:2024:public com.androidquery.AbstractAQuery ajax(java.lang.String,java.util.Map,java.lang.Class,java.lang.Object,java.lang.String)
+    2040:2041:public com.androidquery.AbstractAQuery delete(java.lang.String,java.lang.Class,com.androidquery.callback.AjaxCallback)
+    2058:2059:public com.androidquery.AbstractAQuery put(java.lang.String,java.lang.String,org.apache.http.HttpEntity,java.lang.Class,com.androidquery.callback.AjaxCallback)
+    2081:2084:public com.androidquery.AbstractAQuery delete(java.lang.String,java.lang.Class,java.lang.Object,java.lang.String)
+    2098:2100:public com.androidquery.AbstractAQuery sync(com.androidquery.callback.AjaxCallback)
+    2117:2117:public com.androidquery.AbstractAQuery cache(java.lang.String,long)
+    2129:2131:public com.androidquery.AbstractAQuery ajaxCancel()
+    2143:2145:public java.io.File getCachedFile(java.lang.String)
+    2156:2160:public com.androidquery.AbstractAQuery invalidate(java.lang.String)
+    2172:2172:public android.graphics.Bitmap getCachedImage(java.lang.String)
+    2185:2193:public android.graphics.Bitmap getCachedImage(java.lang.String,int)
+    2206:2206:public android.graphics.Bitmap getCachedImage(int)
+    2217:2217:public boolean shouldDelay(android.view.View,android.view.ViewGroup,java.lang.String,float)
+    2230:2230:public boolean shouldDelay(android.view.View,android.view.ViewGroup,java.lang.String,float,boolean)
+    2250:2250:public boolean shouldDelay(int,boolean,android.view.View,android.view.ViewGroup,java.lang.String)
+    2273:2273:public boolean shouldDelay(int,int,boolean,android.view.View,android.view.ViewGroup,java.lang.String)
+    2324:2327:public boolean shouldDelay(int,android.view.View,android.view.ViewGroup,java.lang.String)
+    2361:2398:public java.io.File makeSharedFile(java.lang.String,java.lang.String)
+    2413:2413:public com.androidquery.AbstractAQuery animate(int)
+    2429:2431:public com.androidquery.AbstractAQuery animate(int,android.view.animation.Animation$AnimationListener)
+    2445:2448:public com.androidquery.AbstractAQuery animate(android.view.animation.Animation)
+    2462:2465:public com.androidquery.AbstractAQuery click()
+    2479:2482:public com.androidquery.AbstractAQuery longClick()
+    2498:2505:public com.androidquery.AbstractAQuery show(android.app.Dialog)
+    2517:2524:public com.androidquery.AbstractAQuery dismiss(android.app.Dialog)
+    2535:2547:public com.androidquery.AbstractAQuery dismiss()
+    2561:2561:public com.androidquery.AbstractAQuery webImage(java.lang.String)
+    2581:2589:public com.androidquery.AbstractAQuery webImage(java.lang.String,boolean,boolean,int)
+    2609:2627:public android.view.View inflate(android.view.View,int,android.view.ViewGroup)
+    2634:2644:public com.androidquery.AbstractAQuery expand(int,boolean)
+    2649:2671:public com.androidquery.AbstractAQuery expand(boolean)
+    2687:2688:public com.androidquery.AbstractAQuery download(java.lang.String,java.io.File,com.androidquery.callback.AjaxCallback)
+    2705:2707:public com.androidquery.AbstractAQuery download(java.lang.String,java.io.File,java.lang.Object,java.lang.String)
+com.androidquery.auth.AccountHandle:
+    private java.util.LinkedHashSet callbacks
+    29:29:public AccountHandle()
+    36:44:public synchronized void auth(com.androidquery.callback.AbstractAjaxCallback)
+    public abstract boolean authenticated()
+    51:60:protected synchronized void success(android.content.Context)
+    64:73:protected synchronized void failure(android.content.Context,int,java.lang.String)
+    protected abstract void auth()
+    public abstract boolean expired(com.androidquery.callback.AbstractAjaxCallback,com.androidquery.callback.AjaxStatus)
+    public abstract boolean reauth(com.androidquery.callback.AbstractAjaxCallback)
+    83:83:public void applyToken(com.androidquery.callback.AbstractAjaxCallback,org.apache.http.HttpRequest)
+    86:86:public void applyToken(com.androidquery.callback.AbstractAjaxCallback,java.net.HttpURLConnection)
+    89:89:public java.lang.String getNetworkUrl(java.lang.String)
+    93:93:public java.lang.String getCacheUrl(java.lang.String)
+    97:97:public void unauth()
+com.androidquery.auth.GoogleHandle
+com.androidquery.auth.GoogleHandle$Task
+com.androidquery.callback.AbstractAjaxCallback
+com.androidquery.callback.AbstractAjaxCallback$1
+com.androidquery.callback.AjaxCallback
+com.androidquery.callback.AjaxStatus
+com.androidquery.callback.BitmapAjaxCallback
+com.androidquery.callback.ImageOptions
+com.androidquery.callback.Transformer:
+    public abstract java.lang.Object transform(java.lang.String,java.lang.Class,java.lang.String,byte[],com.androidquery.callback.AjaxStatus)
+com.androidquery.service.MarketService
+com.androidquery.service.MarketService$Handler
+com.androidquery.util.AQUtility
+com.androidquery.util.AQUtility$1
+com.androidquery.util.AQUtility$2
+com.androidquery.util.AQUtility$3
+com.androidquery.util.BitmapCache
+com.androidquery.util.Common
+com.androidquery.util.Constants
+com.androidquery.util.PredefinedBAOS
+com.androidquery.util.Progress
+com.androidquery.util.RatioDrawable
+com.androidquery.util.WebImage
+com.androidquery.util.WebImage$1
+com.androidquery.util.XmlDom
+com.liangxiao.accumulationfund.BuildConfig
+com.liangxiao.accumulationfund.R:
+    10:10:public R()
+com.liangxiao.accumulationfund.R$anim
+com.liangxiao.accumulationfund.R$attr
+com.liangxiao.accumulationfund.R$color
+com.liangxiao.accumulationfund.R$dimen
+com.liangxiao.accumulationfund.R$drawable
+com.liangxiao.accumulationfund.R$id
+com.liangxiao.accumulationfund.R$layout
+com.liangxiao.accumulationfund.R$menu
+com.liangxiao.accumulationfund.R$string
+com.liangxiao.accumulationfund.R$style
+com.liangxiao.accumulationfund.R$styleable:
+    1093:1093:public R$styleable()
+com.liangxiao.swiperefresh.ILoadingLayout:
+    public abstract void setTextTypeface(android.graphics.Typeface)
+com.liangxiao.swiperefresh.IPullToRefresh
+com.liangxiao.swiperefresh.LoadingLayoutProxy:
+    70:73:public void setTextTypeface(android.graphics.Typeface)
+com.liangxiao.swiperefresh.OverscrollHelper:
+    static final java.lang.String LOG_TAG
+    static final float DEFAULT_OVERSCROLL_SCALE
+    26:26:public OverscrollHelper()
+    53:54:public static void overScrollBy(com.liangxiao.swiperefresh.PullToRefreshBase,int,int,int,int,boolean)
+com.liangxiao.swiperefresh.PullToRefreshBase:
+    static final boolean DEBUG
+    static final boolean USE_HW_LAYERS
+    static final java.lang.String LOG_TAG
+    static final float FRICTION
+    public static final int SMOOTH_SCROLL_DURATION_MS
+    public static final int SMOOTH_SCROLL_LONG_DURATION_MS
+    static final int DEMO_SCROLL_INTERVAL
+    static final java.lang.String STATE_STATE
+    static final java.lang.String STATE_MODE
+    static final java.lang.String STATE_CURRENT_MODE
+    static final java.lang.String STATE_SCROLLING_REFRESHING_ENABLED
+    static final java.lang.String STATE_SHOW_REFRESHING_VIEW
+    static final java.lang.String STATE_SUPER
+    152:160:public final boolean demo()
+    209:209:public final boolean isDisableScrollingWhileRefreshing()
+    232:232:public final boolean isScrollingWhileRefreshingEnabled()
+    435:437:public void setLoadingDrawable(android.graphics.drawable.Drawable,com.liangxiao.swiperefresh.PullToRefreshBase$Mode)
+    487:489:public void setPullLabel(java.lang.CharSequence,com.liangxiao.swiperefresh.PullToRefreshBase$Mode)
+    509:510:public final void setRefreshing()
+    534:537:public void setRefreshingLabel(java.lang.CharSequence,com.liangxiao.swiperefresh.PullToRefreshBase$Mode)
+    669:670:protected final void disableLoadingLayoutVisibilityChanges()
+    1080:1081:protected final void smoothScrollToLonger(int)
+    1366:1375:private final void smoothScrollToAndBack(int)
+    1332:1332:static synthetic void access$5(com.liangxiao.swiperefresh.PullToRefreshBase,int,long,long,com.liangxiao.swiperefresh.PullToRefreshBase$OnSmoothScrollFinishedListener)
+com.liangxiao.swiperefresh.PullToRefreshBase$3
+com.liangxiao.swiperefresh.PullToRefreshBase$OnLastItemVisibleListener
+com.liangxiao.swiperefresh.internal.FlipLoadingLayout:
+    static final int FLIP_ANIMATION_DURATION
+    80:80:protected void onLoadingDrawableSet(android.graphics.drawable.Drawable)
+    99:100:protected void refreshingImpl()
+    110:112:protected void resetImpl()
+com.liangxiao.swiperefresh.internal.LoadingLayout:
+    static final java.lang.String LOG_TAG
+    211:223:public final void hideAllViews()
+    329:341:public final void showInvisibleViews()
+    protected abstract void onLoadingDrawableSet(android.graphics.drawable.Drawable)
+    protected abstract void refreshingImpl()
+    protected abstract void resetImpl()
+com.liangxiao.swiperefresh.internal.RotateLoadingLayout:
+    static final int ROTATION_ANIMATION_DURATION
+    64:70:public void onLoadingDrawableSet(android.graphics.drawable.Drawable)
+    88:88:protected void refreshingImpl()
+    93:94:protected void resetImpl()
+    97:101:private void resetImageRotation()
+com.liangxiao.swiperefresh.internal.Utils:
+    static final java.lang.String LOG_TAG
+    5:5:public Utils()
+com.liangxiao.swiperefresh.internal.ViewCompat:
+    25:25:public ViewCompat()
+    44:47:public static void setLayerType(android.view.View,int)
+com.liangxiao.swiperefresh.internal.ViewCompat$SDK11
+com.liangxiao.swiperefresh.internal.ViewCompat$SDK16:
+    58:58:ViewCompat$SDK16()
+com.nineoldandroids.animation.Animator
+com.nineoldandroids.animation.Animator$AnimatorListener
+com.nineoldandroids.animation.AnimatorInflater
+com.nineoldandroids.animation.AnimatorListenerAdapter
+com.nineoldandroids.animation.AnimatorSet
+com.nineoldandroids.animation.AnimatorSet$1
+com.nineoldandroids.animation.AnimatorSet$AnimatorSetListener
+com.nineoldandroids.animation.AnimatorSet$Builder
+com.nineoldandroids.animation.AnimatorSet$Dependency
+com.nineoldandroids.animation.AnimatorSet$DependencyListener
+com.nineoldandroids.animation.AnimatorSet$Node
+com.nineoldandroids.animation.ArgbEvaluator
+com.nineoldandroids.animation.FloatEvaluator
+com.nineoldandroids.animation.FloatKeyframeSet
+com.nineoldandroids.animation.IntEvaluator
+com.nineoldandroids.animation.IntKeyframeSet
+com.nineoldandroids.animation.Keyframe
+com.nineoldandroids.animation.Keyframe$FloatKeyframe
+com.nineoldandroids.animation.Keyframe$IntKeyframe
+com.nineoldandroids.animation.Keyframe$ObjectKeyframe
+com.nineoldandroids.animation.KeyframeSet
+com.nineoldandroids.animation.ObjectAnimator
+com.nineoldandroids.animation.PreHoneycombCompat
+com.nineoldandroids.animation.PreHoneycombCompat$1
+com.nineoldandroids.animation.PreHoneycombCompat$10
+com.nineoldandroids.animation.PreHoneycombCompat$11
+com.nineoldandroids.animation.PreHoneycombCompat$12
+com.nineoldandroids.animation.PreHoneycombCompat$13
+com.nineoldandroids.animation.PreHoneycombCompat$14
+com.nineoldandroids.animation.PreHoneycombCompat$2
+com.nineoldandroids.animation.PreHoneycombCompat$3
+com.nineoldandroids.animation.PreHoneycombCompat$4
+com.nineoldandroids.animation.PreHoneycombCompat$5
+com.nineoldandroids.animation.PreHoneycombCompat$6
+com.nineoldandroids.animation.PreHoneycombCompat$7
+com.nineoldandroids.animation.PreHoneycombCompat$8
+com.nineoldandroids.animation.PreHoneycombCompat$9
+com.nineoldandroids.animation.PropertyValuesHolder
+com.nineoldandroids.animation.PropertyValuesHolder$1
+com.nineoldandroids.animation.PropertyValuesHolder$FloatPropertyValuesHolder
+com.nineoldandroids.animation.PropertyValuesHolder$IntPropertyValuesHolder
+com.nineoldandroids.animation.TimeAnimator
+com.nineoldandroids.animation.TimeAnimator$TimeListener
+com.nineoldandroids.animation.TypeEvaluator
+com.nineoldandroids.animation.ValueAnimator
+com.nineoldandroids.animation.ValueAnimator$1
+com.nineoldandroids.animation.ValueAnimator$2
+com.nineoldandroids.animation.ValueAnimator$3
+com.nineoldandroids.animation.ValueAnimator$4
+com.nineoldandroids.animation.ValueAnimator$5
+com.nineoldandroids.animation.ValueAnimator$AnimationHandler
+com.nineoldandroids.animation.ValueAnimator$AnimatorUpdateListener
+com.nineoldandroids.util.FloatProperty
+com.nineoldandroids.util.IntProperty
+com.nineoldandroids.util.NoSuchPropertyException
+com.nineoldandroids.util.Property
+com.nineoldandroids.util.ReflectiveProperty
+com.nineoldandroids.view.ViewHelper:
+    9:9:private ViewHelper()
+    12:12:public static float getAlpha(android.view.View)
+    16:21:public static void setAlpha(android.view.View,float)
+    24:24:public static float getPivotX(android.view.View)
+    28:33:public static void setPivotX(android.view.View,float)
+    36:36:public static float getPivotY(android.view.View)
+    40:45:public static void setPivotY(android.view.View,float)
+    48:48:public static float getRotation(android.view.View)
+    52:57:public static void setRotation(android.view.View,float)
+    60:60:public static float getRotationX(android.view.View)
+    64:69:public static void setRotationX(android.view.View,float)
+    72:72:public static float getRotationY(android.view.View)
+    76:81:public static void setRotationY(android.view.View,float)
+    84:84:public static float getScaleX(android.view.View)
+    96:96:public static float getScaleY(android.view.View)
+    108:108:public static float getScrollX(android.view.View)
+    112:117:public static void setScrollX(android.view.View,int)
+    120:120:public static float getScrollY(android.view.View)
+    124:129:public static void setScrollY(android.view.View,int)
+    132:132:public static float getTranslationX(android.view.View)
+    144:144:public static float getTranslationY(android.view.View)
+    148:153:public static void setTranslationY(android.view.View,float)
+    156:156:public static float getX(android.view.View)
+    160:165:public static void setX(android.view.View,float)
+    168:168:public static float getY(android.view.View)
+    172:177:public static void setY(android.view.View,float)
+com.nineoldandroids.view.ViewHelper$Honeycomb:
+    179:179:private ViewHelper$Honeycomb()
+    181:181:static float getAlpha(android.view.View)
+    185:186:static void setAlpha(android.view.View,float)
+    189:189:static float getPivotX(android.view.View)
+    193:194:static void setPivotX(android.view.View,float)
+    197:197:static float getPivotY(android.view.View)
+    201:202:static void setPivotY(android.view.View,float)
+    205:205:static float getRotation(android.view.View)
+    209:210:static void setRotation(android.view.View,float)
+    213:213:static float getRotationX(android.view.View)
+    217:218:static void setRotationX(android.view.View,float)
+    221:221:static float getRotationY(android.view.View)
+    225:226:static void setRotationY(android.view.View,float)
+    229:229:static float getScaleX(android.view.View)
+    237:237:static float getScaleY(android.view.View)
+    245:245:static float getScrollX(android.view.View)
+    249:250:static void setScrollX(android.view.View,int)
+    253:253:static float getScrollY(android.view.View)
+    257:258:static void setScrollY(android.view.View,int)
+    261:261:static float getTranslationX(android.view.View)
+    269:269:static float getTranslationY(android.view.View)
+    273:274:static void setTranslationY(android.view.View,float)
+    277:277:static float getX(android.view.View)
+    281:282:static void setX(android.view.View,float)
+    285:285:static float getY(android.view.View)
+    289:290:static void setY(android.view.View,float)
+com.nineoldandroids.view.ViewPropertyAnimator
+com.nineoldandroids.view.ViewPropertyAnimatorHC
+com.nineoldandroids.view.ViewPropertyAnimatorHC$1
+com.nineoldandroids.view.ViewPropertyAnimatorHC$AnimatorEventListener
+com.nineoldandroids.view.ViewPropertyAnimatorHC$NameValuesHolder
+com.nineoldandroids.view.ViewPropertyAnimatorHC$PropertyBundle
+com.nineoldandroids.view.ViewPropertyAnimatorICS
+com.nineoldandroids.view.ViewPropertyAnimatorICS$1
+com.nineoldandroids.view.ViewPropertyAnimatorPreHC
+com.nineoldandroids.view.ViewPropertyAnimatorPreHC$1
+com.nineoldandroids.view.ViewPropertyAnimatorPreHC$AnimatorEventListener
+com.nineoldandroids.view.ViewPropertyAnimatorPreHC$NameValuesHolder
+com.nineoldandroids.view.ViewPropertyAnimatorPreHC$PropertyBundle
+com.nineoldandroids.view.animation.AnimatorProxy:
+    71:71:public float getAlpha()
+    74:81:public void setAlpha(float)
+    83:83:public float getPivotX()
+    86:92:public void setPivotX(float)
+    94:94:public float getPivotY()
+    97:103:public void setPivotY(float)
+    105:105:public float getRotation()
+    108:113:public void setRotation(float)
+    115:115:public float getRotationX()
+    118:123:public void setRotationX(float)
+    125:125:public float getRotationY()
+    129:134:public void setRotationY(float)
+    136:136:public float getScaleX()
+    146:146:public float getScaleY()
+    156:160:public int getScrollX()
+    163:167:public void setScrollX(int)
+    169:173:public int getScrollY()
+    176:180:public void setScrollY(int)
+    183:183:public float getTranslationX()
+    193:193:public float getTranslationY()
+    196:201:public void setTranslationY(float)
+    203:207:public float getX()
+    210:214:public void setX(float)
+    216:220:public float getY()
+    223:227:public void setY(float)
+org.kobjects.base64.Base64
+org.kobjects.crypt.Crypt
+org.kobjects.io.BoundInputStream
+org.kobjects.io.LookAheadReader
+org.kobjects.isodate.IsoDate
+org.kobjects.mime.Decoder
+org.kobjects.pim.PimField
+org.kobjects.pim.PimItem
+org.kobjects.pim.PimParser
+org.kobjects.pim.PimWriter
+org.kobjects.pim.VCard
+org.kobjects.rss.RssReader
+org.kobjects.util.ChainedRuntimeException
+org.kobjects.util.Csv
+org.kobjects.util.SingleEnumeration
+org.kobjects.util.Strings
+org.kobjects.util.Util
+org.kobjects.xml.XmlReader
+org.kobjects.xmlrpc.Driver
+org.kobjects.xmlrpc.XmlRpcParser
+org.ksoap2.HeaderProperty
+org.ksoap2.SoapEnvelope
+org.ksoap2.SoapFault
+org.ksoap2.SoapFault12
+org.ksoap2.serialization.AttributeContainer
+org.ksoap2.serialization.AttributeInfo
+org.ksoap2.serialization.DM
+org.ksoap2.serialization.FwdRef
+org.ksoap2.serialization.HasAttributes
+org.ksoap2.serialization.KvmSerializable
+org.ksoap2.serialization.Marshal
+org.ksoap2.serialization.MarshalBase64
+org.ksoap2.serialization.MarshalDate
+org.ksoap2.serialization.MarshalFloat
+org.ksoap2.serialization.MarshalHashtable
+org.ksoap2.serialization.MarshalHashtable$ItemSoapObject
+org.ksoap2.serialization.NullSoapObject
+org.ksoap2.serialization.PropertyInfo
+org.ksoap2.serialization.SoapObject
+org.ksoap2.serialization.SoapPrimitive
+org.ksoap2.serialization.SoapSerializationEnvelope
+org.ksoap2.transport.HttpResponseException
+org.ksoap2.transport.HttpTransportSE
+org.ksoap2.transport.HttpsServiceConnectionSE
+org.ksoap2.transport.HttpsServiceConnectionSEIgnoringConnectionClose
+org.ksoap2.transport.HttpsTransportSE
+org.ksoap2.transport.KeepAliveHttpTransportSE
+org.ksoap2.transport.KeepAliveHttpsTransportSE
+org.ksoap2.transport.ServiceConnection
+org.ksoap2.transport.ServiceConnectionSE
+org.ksoap2.transport.Transport
+org.kxml2.io.KXmlParser
+org.kxml2.io.KXmlSerializer
+org.kxml2.kdom.Document
+org.kxml2.kdom.Element
+org.kxml2.kdom.Node
+org.kxml2.wap.Wbxml
+org.kxml2.wap.WbxmlParser
+org.kxml2.wap.WbxmlSerializer
+org.kxml2.wap.syncml.SyncML
+org.kxml2.wap.wml.Wml
+org.kxml2.wap.wv.WV
+org.xmlpull.v1.XmlPullParser:
+    public static final java.lang.String NO_NAMESPACE
+    public static final int START_DOCUMENT
+    public static final int END_DOCUMENT
+    public static final int START_TAG
+    public static final int END_TAG
+    public static final int TEXT
+    public static final int CDSECT
+    public static final int ENTITY_REF
+    public static final int IGNORABLE_WHITESPACE
+    public static final int PROCESSING_INSTRUCTION
+    public static final int COMMENT
+    public static final int DOCDECL
+    public static final java.lang.String FEATURE_PROCESS_NAMESPACES
+    public static final java.lang.String FEATURE_REPORT_NAMESPACE_ATTRIBUTES
+    public static final java.lang.String FEATURE_PROCESS_DOCDECL
+    public static final java.lang.String FEATURE_VALIDATION
+    public abstract void setFeature(java.lang.String,boolean)
+    public abstract boolean getFeature(java.lang.String)
+    public abstract void setProperty(java.lang.String,java.lang.Object)
+    public abstract java.lang.Object getProperty(java.lang.String)
+    public abstract void setInput(java.io.Reader)
+    public abstract void setInput(java.io.InputStream,java.lang.String)
+    public abstract java.lang.String getInputEncoding()
+    public abstract void defineEntityReplacementText(java.lang.String,java.lang.String)
+    public abstract int getNamespaceCount(int)
+    public abstract java.lang.String getNamespacePrefix(int)
+    public abstract java.lang.String getNamespaceUri(int)
+    public abstract java.lang.String getNamespace(java.lang.String)
+    public abstract int getDepth()
+    public abstract java.lang.String getPositionDescription()
+    public abstract int getLineNumber()
+    public abstract int getColumnNumber()
+    public abstract boolean isWhitespace()
+    public abstract java.lang.String getText()
+    public abstract char[] getTextCharacters(int[])
+    public abstract java.lang.String getNamespace()
+    public abstract java.lang.String getPrefix()
+    public abstract boolean isEmptyElementTag()
+    public abstract int getAttributeCount()
+    public abstract java.lang.String getAttributeNamespace(int)
+    public abstract java.lang.String getAttributeName(int)
+    public abstract java.lang.String getAttributePrefix(int)
+    public abstract java.lang.String getAttributeType(int)
+    public abstract boolean isAttributeDefault(int)
+    public abstract java.lang.String getAttributeValue(int)
+    public abstract int getEventType()
+    public abstract int nextToken()
+    public abstract void require(int,java.lang.String,java.lang.String)
+    public abstract java.lang.String nextText()
+    public abstract int nextTag()
+org.xmlpull.v1.XmlPullParserException:
+    protected int row
+    protected int column
+    20:21:public XmlPullParserException(java.lang.String)
+    37:46:public XmlPullParserException(java.lang.String,org.xmlpull.v1.XmlPullParser,java.lang.Throwable)
+    48:48:public java.lang.Throwable getDetail()
+    50:50:public int getLineNumber()
+    51:51:public int getColumnNumber()
+org.xmlpull.v1.XmlPullParserFactory
+org.xmlpull.v1.XmlSerializer

@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_item"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:padding="10dp" >
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_item_name"
+            style="@style/TextViewStyle"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="right"
+            android:layout_marginBottom="5dp"
+            android:text="@string/af_logo_3_listview_item_money"
+            android:textColor="@color/black" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_item_name"
+            android:background="@color/white" >
+
+            <TextView
+                android:id="@+id/tv_item_address"
+                style="@style/TextViewStyle"
+                android:layout_alignParentLeft="true"
+                android:text="@string/af_logo_3_listview_item_time" />
+
+            <TextView
+                android:id="@+id/tv_item_num"
+                style="@style/TextViewStyle"
+                android:layout_alignParentRight="true"
+                android:text="@string/af_logo_3_listview_item_time" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/ib_btn_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@color/transparent"
+        android:contentDescription="@string/action_settings"
+        android:paddingRight="15dp"
+        android:src="@drawable/logo_titleright_icon"
+        android:visibility="visible" />
+
+</LinearLayout>

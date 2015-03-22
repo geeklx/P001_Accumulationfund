@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.liangxiao.accumulationfund"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!-- 百度地图权限 -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <application
+        android:name="com.accumulationfund.main.application.AfApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/ContentOverlay" >
+        <activity
+            android:name="com.accumulationfund.guide.Guide"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.accumulationfund.guide.WelcomeActivity" />
+        <activity android:name="com.accumulationfund.main.MainActivity" />
+        <activity android:name="com.accumulationfund.otheractivity.MainActivity_logo1" />
+        <activity android:name="com.accumulationfund.otheractivity.MainActivity_logo1Detail" />
+        <activity android:name="com.accumulationfund.otheractivity.MainActivity_logo2" />
+        <activity android:name="com.accumulationfund.otheractivity.MainActivity_logo3" />
+        <activity android:name="com.accumulationfund.otheractivity.MainActivity_logo4" />
+        <activity android:name="com.accumulationfund.otheractivity.MainActivity_logo5" />
+        <activity android:name="com.accumulationfund.otheractivity.MainActivity_logo6" />
+        <activity android:name="com.accumulationfund.otheractivity.MainActivity_logo7" />
+        <activity android:name="com.accumulationfund.otheractivity.MainActivity_logo8" />
+        <activity android:name="com.accumulationfund.otheractivity.MainActivity_logo8_location" />
+        <activity android:name="com.accumulationfund.otheractivity.MainActivity_logo9" />
+        <activity android:name="com.accumulationfund.otheractivity.MainActivity_logo9_fragment1Detail" />
+        <activity android:name="com.accumulationfund.otheractivity.MainActivity_logo9_fragment2Detail" />
+        <activity android:name="com.accumulationfund.otheractivity.MainActivity_logo9_fragment2Detail2" />
+        <activity android:name="com.accumulationfund.otheractivity.MainActivity_logo9_fragment1Detail_another" />
+        <activity android:name="com.accumulationfund.otheractivity.MainActivity_logo9_fragment2Detail_another" />
+        <activity android:name="com.accumulationfund.otheractivity.MainActivity_logo9_fragment2Detail2_another" />
+        <activity android:name="com.accumulationfund.otheractivity.MainActivity_logo10" />
+        <activity android:name="com.accumulationfund.otheractivity.MainActivity_logo11" />
+        <activity android:name="com.accumulationfund.otheractivity.MainActivity_logo11_result" />
+        <activity android:name="com.accumulationfund.otheractivity.MainActivity_logo12" />
+        <activity android:name="com.accumulationfund.otheractivity.MainActivity_AboutUS" />
+        <activity android:name="com.accumulationfund.otheractivity.aboutus.AboutUS_Login" />
+        <activity android:name="com.accumulationfund.otheractivity.aboutus.AboutUS_Privacystatement" />
+        <activity android:name="com.accumulationfund.otheractivity.aboutus.AboutUS_Onlinemessage" />
+        <activity android:name="com.accumulationfund.otheractivity.aboutus.AboutUS_Helpinformation" />
+        <!-- 定位service -->
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:exported="false"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="com.baidu.location.service_v2.2" >
+                </action>
+            </intent-filter>
+        </service>
+        <!-- 百度Key -->
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="6RZYUSZmkDlGPrMxVxpAacoE" />
+    </application>
+
+</manifest>

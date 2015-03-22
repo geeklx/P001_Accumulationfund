@@ -1,0 +1,113 @@
+# view res/layout/af_logo9.xml #generated:12
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:36
+-keep class com.accumulationfund.guide.Guide { <init>(...); }
+
+# view res/layout/af_guide.xml #generated:7
+-keep class com.accumulationfund.guide.MyViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:45
+-keep class com.accumulationfund.guide.WelcomeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:46
+-keep class com.accumulationfund.main.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:30
+-keep class com.accumulationfund.main.application.AfApplication { <init>(...); }
+
+# view res/layout/af_main_lunbo.xml #generated:29
+-keep class com.accumulationfund.main.lunbo.CircleFlowIndicator { <init>(...); }
+
+# view res/layout/af_main_lunbo.xml #generated:8
+-keep class com.accumulationfund.main.lunbo.ViewFlow { <init>(...); }
+
+# view AndroidManifest.xml #generated:68
+-keep class com.accumulationfund.otheractivity.MainActivity_AboutUS { <init>(...); }
+
+# view AndroidManifest.xml #generated:47
+-keep class com.accumulationfund.otheractivity.MainActivity_logo1 { <init>(...); }
+
+# view AndroidManifest.xml #generated:64
+-keep class com.accumulationfund.otheractivity.MainActivity_logo10 { <init>(...); }
+
+# view AndroidManifest.xml #generated:65
+-keep class com.accumulationfund.otheractivity.MainActivity_logo11 { <init>(...); }
+
+# view AndroidManifest.xml #generated:66
+-keep class com.accumulationfund.otheractivity.MainActivity_logo11_result { <init>(...); }
+
+# view AndroidManifest.xml #generated:67
+-keep class com.accumulationfund.otheractivity.MainActivity_logo12 { <init>(...); }
+
+# view AndroidManifest.xml #generated:48
+-keep class com.accumulationfund.otheractivity.MainActivity_logo1Detail { <init>(...); }
+
+# view AndroidManifest.xml #generated:49
+-keep class com.accumulationfund.otheractivity.MainActivity_logo2 { <init>(...); }
+
+# view AndroidManifest.xml #generated:50
+-keep class com.accumulationfund.otheractivity.MainActivity_logo3 { <init>(...); }
+
+# view AndroidManifest.xml #generated:51
+-keep class com.accumulationfund.otheractivity.MainActivity_logo4 { <init>(...); }
+
+# view AndroidManifest.xml #generated:52
+-keep class com.accumulationfund.otheractivity.MainActivity_logo5 { <init>(...); }
+
+# view AndroidManifest.xml #generated:53
+-keep class com.accumulationfund.otheractivity.MainActivity_logo6 { <init>(...); }
+
+# view AndroidManifest.xml #generated:54
+-keep class com.accumulationfund.otheractivity.MainActivity_logo7 { <init>(...); }
+
+# view AndroidManifest.xml #generated:55
+-keep class com.accumulationfund.otheractivity.MainActivity_logo8 { <init>(...); }
+
+# view AndroidManifest.xml #generated:56
+-keep class com.accumulationfund.otheractivity.MainActivity_logo8_location { <init>(...); }
+
+# view AndroidManifest.xml #generated:57
+-keep class com.accumulationfund.otheractivity.MainActivity_logo9 { <init>(...); }
+
+# view AndroidManifest.xml #generated:58
+-keep class com.accumulationfund.otheractivity.MainActivity_logo9_fragment1Detail { <init>(...); }
+
+# view AndroidManifest.xml #generated:61
+-keep class com.accumulationfund.otheractivity.MainActivity_logo9_fragment1Detail_another { <init>(...); }
+
+# view AndroidManifest.xml #generated:59
+-keep class com.accumulationfund.otheractivity.MainActivity_logo9_fragment2Detail { <init>(...); }
+
+# view AndroidManifest.xml #generated:60
+-keep class com.accumulationfund.otheractivity.MainActivity_logo9_fragment2Detail2 { <init>(...); }
+
+# view AndroidManifest.xml #generated:63
+-keep class com.accumulationfund.otheractivity.MainActivity_logo9_fragment2Detail2_another { <init>(...); }
+
+# view AndroidManifest.xml #generated:62
+-keep class com.accumulationfund.otheractivity.MainActivity_logo9_fragment2Detail_another { <init>(...); }
+
+# view AndroidManifest.xml #generated:72
+-keep class com.accumulationfund.otheractivity.aboutus.AboutUS_Helpinformation { <init>(...); }
+
+# view AndroidManifest.xml #generated:69
+-keep class com.accumulationfund.otheractivity.aboutus.AboutUS_Login { <init>(...); }
+
+# view AndroidManifest.xml #generated:71
+-keep class com.accumulationfund.otheractivity.aboutus.AboutUS_Onlinemessage { <init>(...); }
+
+# view AndroidManifest.xml #generated:70
+-keep class com.accumulationfund.otheractivity.aboutus.AboutUS_Privacystatement { <init>(...); }
+
+# view AndroidManifest.xml #generated:74
+-keep class com.baidu.location.f { <init>(...); }
+
+# view res/layout/af_logo8_detail.xml #generated:11
+-keep class com.baidu.mapapi.map.MapView { <init>(...); }
+
+# view res/layout/af_logo2.xml #generated:10
+# view res/layout/af_logo5.xml #generated:10
+# view res/layout/af_logo52.xml #generated:10
+-keep class com.liangxiao.swiperefresh.PullToRefreshScrollView { <init>(...); }
+
